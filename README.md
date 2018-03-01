@@ -14,12 +14,12 @@ It utlizes psycopg2 package for postgresql database connection.
 
 **Setup/Installation**
 
-$vagrant up  (To start up VM)
-$vagrant ssh (To login to VM)
-vagrant@vagrant:~$ cd /vagrant (To go the Directory associated with VM)
-vagrant@vagrant:/vagrant$ ls   (To make sure this directory has Vagrantfile)
-vagrant@vagrant:/vagrant$ psql -d news -f newsdata.sql (To setup news db from downloaded newsdata.sql file)
-vagrant@vagrant:/vagrant$ psql -d news -f views.sql  (To create new view required for this program)
+$vagrant up  (To install and start up VM) <br />
+$vagrant ssh (To log into VM) <br />
+vagrant@vagrant:~$ cd /vagrant (To go the Directory associated with VM) <br/>
+vagrant@vagrant:/vagrant$ ls   (To make sure this directory has Vagrantfile) <br/>
+vagrant@vagrant:/vagrant$ psql -d news -f newsdata.sql (To setup news db from downloaded newsdata.sql file) <br/>
+vagrant@vagrant:/vagrant$ psql -d news -f views.sql  (To create new view required for this program) <br/>
  	
 **Usage**
 
