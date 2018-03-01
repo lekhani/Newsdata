@@ -23,11 +23,11 @@ vagrant@vagrant:/vagrant$ psql -d news -f views.sql  (To create new view require
  	
 **Usage**
 
-_To view the reports on the shell_
+**_To view the reports on the shell_**
 vagrant@vagrant:~$ python3 newsdata.py
 
 
-_To save the reports in a file_
+**_To save the reports in a file_**
 vagrant@vagrant:~$ python3 newsdata.py >> output.txt
 (Above command puts the output in output.txt file in current working directory)
 
@@ -35,7 +35,7 @@ vagrant@vagrant:~$ python3 newsdata.py >> output.txt
 None reported.
 
 **Future Plans**
-Include more reports and will have web interface for pulling reports.
+It will have web interface for pulling reports. Also new reports will be added.
 
 **Contribution Guidelines**
 
