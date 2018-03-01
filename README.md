@@ -18,25 +18,23 @@ $vagrant up  (To start up VM)
 $vagrant ssh (To login to VM)
 vagrant@vagrant:~$ cd /vagrant (To go the Directory associated with VM)
 vagrant@vagrant:/vagrant$ ls   (To make sure this directory has Vagrantfile)
-vagrant@vagrant:/vagrant$ psql -d news -f newsdata.sql 
-(To setup news db from downloaded newsdata.sql file)
-vagrant@vagrant:/vagrant$ psql -d news -f views.sql 
- (To create new view required for this program)
+vagrant@vagrant:/vagrant$ psql -d news -f newsdata.sql (To setup news db from downloaded newsdata.sql file)
+vagrant@vagrant:/vagrant$ psql -d news -f views.sql  (To create new view required for this program)
  	
 **Usage**
 
-***To view the reports on the shell ***
+_To view the reports on the shell_
 vagrant@vagrant:~$ python3 newsdata.py
 
 
-***To save the reports in a file***
+_To save the reports in a file_
 vagrant@vagrant:~$ python3 newsdata.py >> output.txt
 (Above command puts the output in output.txt file in current working directory)
 
 **Known Issues**
 None reported.
 
-**Future Plans***
+**Future Plans**
 Include more reports and will have web interface for pulling reports.
 
 **Contribution Guidelines**
